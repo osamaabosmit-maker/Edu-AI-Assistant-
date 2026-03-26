@@ -172,7 +172,7 @@ with st.sidebar:
     st.divider()
     st.markdown("<h3 style='text-align: center;'>📲 امسح لتجربة التطبيق</h3>", unsafe_allow_html=True)
 
-    app_url = "https://edu-ai-app.streamlit.app"
+    app_url = "https://6nf8bn7hpt8surrdagdchk.streamlit.app/"
 
     qr = qrcode.QRCode(version=1, box_size=10, border=2)
     qr.add_data(app_url)
